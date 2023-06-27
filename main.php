@@ -3,7 +3,7 @@ $apiKey = 'YOUR_API_KEY'; // Your Exchange Rates API key
 $baseCurrency = 'EUR'; // Base currency for conversion
 $targetCurrencies = ['XAU', 'GBP', 'USD', 'JPY', 'CAD', 'CHF', 'AUD']; // Array of target currencies to fetch rates for
 
-$url = "https://api.exchangeratesapi.io/v1/latest?access_key=$apiKey&base=$baseCurrency&symbols=" . implode(',', $targetCurrencies);
+$url = "https://api.exchangeratesapi.io/v1/latest?access_key=$apiKey&base=$baseCurrency&symbols=" . implode(',', $targetCurrencies); // If You Are Using Free Api Use Http Instead of Https
 
 $response = file_get_contents($url);
 $data = json_decode($response, true);
