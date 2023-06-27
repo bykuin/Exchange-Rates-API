@@ -1,5 +1,7 @@
 <h1>Exchange Rates API Project Example</h1>
 
+<a href="https://onlinephp.io/c/844c4">Test</a>
+
 <p>This project is a simple PHP application that uses the <a href="https://exchangeratesapi.io/">Exchange Rates API</a> service to fetch and visualize target currency exchange rates for a specific base currency (EUR).</p>
 
 <h2>Requirements</h2>
