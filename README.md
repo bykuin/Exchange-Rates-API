@@ -1,4 +1,4 @@
-<h1>Exchange Rates API Project Example</h1>
+<h1>Basic Exchange Rates API Project Example</h1>
 
 <a href="https://onlinephp.io/c/844c4">Test</a>
 
